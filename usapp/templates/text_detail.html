@@ -1,0 +1,11 @@
+<p>{{ e }}</p>
+
+<h2>{{ text.name }}</h2>
+<p>{{ text.created_at }}</p>
+<p>{{ text.content }}</p>
+<p>
+    <button onclick="window.location.href='{% url 'update_text' text.id %}'">Update</button>
+    <button onclick="window.location.href='{% url 'delete_text' text.id %}'">Delete</button>
+</p>
+<p><button onclick="window.location.href='{% url 'main_page' %}'">main_page</button></p>
+

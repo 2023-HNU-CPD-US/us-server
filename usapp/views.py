@@ -11,7 +11,7 @@ from google_vision_ai import prepare_image_local, prepare_image_web, draw_bounda
 import sys
 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'client_file_vision_ai_demo.json'
-openai.api_key = "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"
+openai.api_key = "대충 키 값이였던 것"
 
 def reset_data(request):
     try:

@@ -15,7 +15,7 @@ from rest_framework.parsers import MultiPartParser, FormParser
 from .serializers import TextSerializer, FolderSerializer
 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'client_file_vision_ai_demo.json'
-openai.api_key = "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"
+openai.api_key = "대충 키 값이였던 것"
 
 class AddText(APIView):
     parser_classes = (MultiPartParser, FormParser)
